@@ -1,5 +1,5 @@
 local Lib =loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/KeySystem2Lib/main/Lib.lua"))()
-Lib.Application = "Galaxy hub"	 		-- <str>
+Lib.Application = "galaxyhub"	 		-- <str>
 Lib.Tittle = "Galaxy is cool" 			-- <str>
 Lib.Description = "Galaxy by phoenix and IIlem6II"	   	-- <str>
 Lib.Logo = nil 						-- <str | none>
