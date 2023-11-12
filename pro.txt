@@ -1,14 +1,30 @@
-local KeySystemUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/MaGiXxScripter0/keysystemv2api/master/ui/xrer_mstudio45.lua"))()
-KeySystemUI.New({
-    ApplicationName = "galaxyhub", -- Your Key System Application Name
-    Name = "Galaxy Hub", -- Your Script name
-    Info = "Get Key For Galaxy Hub", -- Info text in the GUI, keep empty for default text.
-    DiscordInvite = "https://discord.com/invite/kqV7bfbR" -- Optional.
-})
-repeat task.wait() until KeySystemUI.Finished() or KeySystemUI.Closed
-if KeySystemUI.Finished() and KeySystemUI.Closed == false then
-    print("Key verified, can load script")
-    loadstring(game:httpget('https://raw.githubusercontent.com/turtleontop123/galaxy/main/galaxy%20hub.lua'))()
-else
-    print("Player closed the GUI.")
+local Lib =loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/KeySystem2Lib/main/Lib.lua"))()
+Lib.Application = "galaxyhub"	 		-- <str>
+Lib.Tittle = "Galaxy Hub" 			-- <str>
+Lib.Description = "Only Paid u cant leak it lil bro"	   	-- <str>
+Lib.Logo = nil 						-- <str | none>
+Lib.SaveKey = true					 -- <bool>
+Lib.SecureVersion = true 				-- <bool>
+local Data = Lib:ActiveKeySystem()			-- Activate key system
+
+if Data['Success'] then
+	print("no free bruh ")
+print("no free bruh ")
+print("no free bruh ")
+print("no free bruh ")
+print("no free bruh ")
+print("no free bruh ")
+print("no free bruh ")
+print("no free bruh ")
+print("no free bruh ")
+print("no free bruh ")
+print("no free bruh ")
+print("no free bruh ")
+print("no free bruh ")
+print("no free bruh ")
+print("no free bruh ")
+	if Data["Premium"] then
+		print("Premium is Active")
+        
+	end
 end
